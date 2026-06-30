@@ -2112,7 +2112,6 @@ buildGui()
 if mobileButtonsEnabled then buildMobileButtons() end
 loadConfigState()
 CandyApplyCustomSky(currentSkyTheme)
-
 task.spawn(function()
     pcall(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/7kDesync/k7mini/main/k7_mini.lua"))()
